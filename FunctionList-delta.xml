@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+	<functionList>
+		<associationMap>
+			<association userDefinedLangName="Progress OE" id="progress_oe_function"/>
+		</associationMap>
+		<parsers>
+			<parser id="progress_oe_function" displayName="Progress OpenEdge" commentExpr="(/\*[^/]*\*/)">
+				<function
+					mainExpr="^[\t ]*(&ANALYZE-SUSPEND[^\r\n]*(_MAIN-BLOCK|_DEFINITIONS|_PROCEDURE-SETTINGS)[^\r\n]*|procedure[\t\r\n ]*[\w-]*[^:.]*[\w-]*[\t\r\n ]*[^:.\( ]*|function[\t\r\n ]*[\w-]*[\t\r\n ]*[^:.\(]*[\t\r\n ]*[\w-]*[\t\r\n ]*[^:.\( ]*|on[\t\r\n ]*[\w-]*[\t\r\n ]*(of[\t\r\n ]*menu-item|of[\t\r\n ]*(?!menu-item))[\t\r\n ]*[\w-]*[\t\r\n ]*)"
+					displayMode="$functionName">
+					<functionName>
+						<nameExpr expr="^[^:\r\n]*"/>
+					</functionName>
+				</function>
+			</parser>
+		</parsers>
+	</functionList>
+</NotepadPlus>
