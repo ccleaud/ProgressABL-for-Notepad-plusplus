@@ -1,7 +1,7 @@
 Progress | OpenEdge for Notepad++
 =================================
 
-Syntax highlighting and function listing for Progress | OpenEdge files in Notepad++.
+Syntax highlighting and functions listing for Progress | OpenEdge files in Notepad++.
 
 
 Description
@@ -14,6 +14,29 @@ A recent version of [Notepad++](http://notepad-plus-plus.org/) is required (one 
 
 2.
 An XML delta-file to make Notepad++ able to detect Progress | OpenEdge functions, procedures, external procedures, event triggers and even AppBuilder sections.
+
+
+Syntax highlighter features
+---------------------------
+- keywords (many OpenEdge keywords are recognized and classified in 2 colors: statements and methods/properties)
+- comments
+- nested comments (yes, Progress can do this)
+- strings
+- numbers
+- preprocessor directives
+- outlining of blocks like DO, PROCEDURE, FUNCTION
+
+
+Functions list features
+-----------------------
+- detection of internal procedures
+- detection of external procedures (such as functions in .so or .dll)
+- detection of functions and function forwards
+- detection of triggers
+- detection of definition sections
+- detection of main block section
+- detection of procedure settings section
+
 
 
 How to use the syntax highlighter
@@ -49,7 +72,7 @@ Syntax highlighter:
 ![](preview-syntax.png)
 
 
-Function List:
+Functions List:
 
 ![](preview-functions.png)
 
