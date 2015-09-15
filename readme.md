@@ -1,7 +1,7 @@
-Progress | OpenEdge for Notepad++
-=================================
+Progress ABL for Notepad++
+==========================
 
-Syntax highlighting and functions listing for Progress | OpenEdge files in Notepad++.
+Syntax highlighting and functions listing for Progress ABL files in Notepad++.
 
 
 Description
@@ -13,12 +13,12 @@ An XML file that gives you syntax highlighting/coloring for .p .w .i and .cls fi
 A recent version of [Notepad++](http://notepad-plus-plus.org/) is required (one of those supporting the [User Defined Language](http://udl20.weebly.com/ "User Defined Language")).
 
 2.
-An XML delta-file to make Notepad++ able to detect Progress | OpenEdge functions, procedures, external procedures, event triggers and even AppBuilder sections.
+An XML delta-file to make Notepad++ able to detect Progress ABL functions, procedures, external procedures, event triggers and even AppBuilder sections.
 
 
 Syntax highlighter features
 ---------------------------
-- keywords (many OpenEdge keywords are recognized and classified in 2 colors: statements and methods/properties)
+- keywords (many ABL keywords are recognized and classified in statements and methods/properties)
 - comments
 - nested comments (yes, Progress can do this)
 - strings
@@ -34,18 +34,27 @@ Functions list features
 - detection of functions and function forwards
 - detection of triggers
 - detection of definition sections
-- detection of main block section
-- detection of procedure settings section
+- detection of main block sections
+- detection of procedure settings sections
 
 
 
 How to use the syntax highlighter
 ---------------------------------
- - download the `progress_openedge.xml` file
+ - download the `udl-progressabl-classic.xml` file
  - open Notepad++
- - go to  `Language -> Define your language...`,  click on  `Import...` and select the `progress_openedge.xml` file you've downloaded
+ - go to  `Language -> Define your language...`,  click on  `Import...` and select the `udl-progressabl-classic.xml` file you've downloaded
  - close and restart Notepad++
- - finished
+ - finished :)
+
+
+How to use the syntax highlighter with theme
+--------------------------------------------
+ - download the `udl-progressabl-solarized.xml` file
+ - open Notepad++ and import this user defined language
+ - enable "Solarized" theme (via menu Settings --> Style configurator)
+ - manually select the language "Progress ABL (solarized)"
+ - finished :)
 
 
 How to use the function-list configuration
@@ -55,7 +64,7 @@ How to use the function-list configuration
  - go to settings directory of Notepad++ (can be either %APPDATA% or installation directory, according to the presence of `doLocalConf.xml`)
  - open `functionlist.xml` and manually merge `functionlist-delta.xml` in it (sorry, I don't know any other way to do this) - don't use Notepad++ to do this or you might lose your changes
  - delete `functionlist-delta.xml` as it is no longer necessary
- - finished
+ - finished :)
 
 
 Notes
