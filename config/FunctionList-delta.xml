@@ -3,6 +3,8 @@
 	<functionList>
 		<associationMap>
 			<association userDefinedLangName="Progress ABL" id="progress_abl_function"/>
+			<!-- Following line is to make function-list compatible with the genious 3P plugin (https://jcaillon.github.io/3P/) -->
+			<association userDefinedLangName="OpenEdgeABL" id="progress_abl_function"/>
 		</associationMap>
 		<parsers>
 			<parser id="progress_abl_function" displayName="Progress OpenEdge" commentExpr="(/\*[^/]*\*/)">
