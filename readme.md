@@ -1,16 +1,17 @@
 Progress ABL for Notepad++
 ==========================
 
-Syntax highlighting and functions listing for Progress ABL files in Notepad++.
+Syntax highlighting and functions listing for [Progress ABL](https://www.progress.com/openedge) files in [Notepad++](http://notepad-plus-plus.org/ "Notepad++ Home Page").
 
 
 Description
 -----------
-There are 2 [Notepad++](http://notepad-plus-plus.org/) add-on features in this repository:
+This is NOT a plugin ; only configuration for use with Notepad++.
+There are 2 Notepad++ customized features in this repository:
 
 1.
-An XML file that gives you syntax highlighting/coloring for .p .w .i and .cls files and brings you ability to fold code structure.
-A recent version of [Notepad++](http://notepad-plus-plus.org/) is required (one of those supporting the [User Defined Language](http://udl20.weebly.com/ "User Defined Language")).
+A ready-to-import XML file that gives syntax highlighting/coloring for .p .w .i and .cls files and brings ability to fold code structure.
+A recent version of Notepad++ is required (one of those supporting the [User Defined Language](http://udl20.weebly.com/ "User Defined Language")).
 
 2.
 An XML delta-file to make Notepad++ able to detect Progress ABL functions, procedures, external procedures, event triggers and even AppBuilder sections.
@@ -76,16 +77,19 @@ Notes
 Previews
 --------
 
-Syntax highlighter:
-
+### Syntax highlighter
 ![](preview-syntax.png)
 
 
-Functions List:
-
+### Functions List
 ![](preview-functions.png)
 
 
-And now ....
-------------
+If you want more
+----------------
+Give a try to the excellent ["Progress Programmers Pal" (a.k.a. "3P")](https://jcaillon.github.io/3P/ "3P Home Page") plugin.
+
+
+And now...
+----------
 Enjoy!
