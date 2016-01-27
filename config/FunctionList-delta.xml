@@ -12,7 +12,7 @@
 					mainExpr="^[\t ]*(&ANALYZE-SUSPEND[^\r\n]*(_MAIN-BLOCK|_DEFINITIONS|_PROCEDURE-SETTINGS)[^\r\n]*|procedure[\t\r\n ]*[\w-]*[^:.]*[\w-]*[\t\r\n ]*[^:.\( ]*|function[\t\r\n ]*[\w-]*[\t\r\n ]*[^:.\(]*[\t\r\n ]*[\w-]*[\t\r\n ]*[^:.\( ]*|on[\t\r\n ]*[\w-]*[\t\r\n ]*(of[\t\r\n ]*menu-item|of[\t\r\n ]*(?!menu-item))[\t\r\n ]*[\w-]*[\t\r\n ]*)"
 					displayMode="$functionName">
 					<functionName>
-						<nameExpr expr="^[^:\r\n]*"/>
+						<nameExpr expr="\w+(.*?)[^:]*"/>
 					</functionName>
 				</function>
 			</parser>
